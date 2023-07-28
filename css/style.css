@@ -54,6 +54,7 @@ img {
 
 .row {
     display: flex;
+
 }
 
 .col {
@@ -127,3 +128,14 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .row {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
