@@ -142,7 +142,9 @@ img {
 
 @media screen and (max-width: 480px) {
 
-
+    .why-us {
+        margin: -3rem 0;
+    }
 
     .col {
         padding-bottom: 4rem;
@@ -170,9 +172,11 @@ img {
 
     .why-us .container {
         background-color: #222222;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
 
-    .why-us .row {
+    .why-us .row .col {
         /* flex-direction: column; */
         align-content: flex-start;
     }
