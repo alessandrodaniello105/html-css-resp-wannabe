@@ -167,8 +167,8 @@ img {
     
     .lessons .col,
     .steps .col {
-        width: 100%;
-        margin: 0 3.1rem;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .why-us .col {
@@ -192,17 +192,4 @@ img {
         align-content: flex-start;
     }
 
-}
-
-
-
-
-
-
-
-
-
-.debug {
-    border: 1px solid red;
-    background-color: rgba(255, 0, 0, 0.2);
 }
